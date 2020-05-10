@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { LibCommonComponent } from './lib-common.component';
+import { LibCommonComponent } from './component/lib-common/lib-common.component';
 
 
 
@@ -9,4 +9,4 @@ import { LibCommonComponent } from './lib-common.component';
   ],
   exports: [LibCommonComponent]
 })
-export class LibCommonModule { }
+export class CommonModule { }
